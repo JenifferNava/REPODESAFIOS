@@ -1,0 +1,50 @@
+CCS Vistos en clase
+Seleccitor por Clase: .text-option
+Seleccitor por ID: #btn-mi-telcel
+Seleccitor por Atrubuto [title="icono paquetes y recargas"]
+Selecctor Jerarquico: a#btn-mi-telcel>span.text-option
+
+Desafio por CCS
+1.- Buscar
+
+2.- Logo Telcel 
+a[title="Telcel"]
+
+3.- Atajos
+.atajos
+
+4.-Paquetes y recargas
+[title="icono paquetes y recargas"]
+[alt="icon paquetes y recargas"]
+
+5.- Mas información
+class="telcel-controles-cta telcel-controles-cta--inline-block"
+
+
+XPATH 
+Selección Relativa:
+//span[@class="text-option"]
+//a[@id="btn-mi-telcel"]
+Selección Relativa:
+(//span[@class="text-option"])[5]
+Seleccion parcial de texto
+//span[text()="Mi Telcel"]
+//p[contains(text(),"Si adquiriste")]
+Selector multiple
+//a[@id="btn-mi-telcel"]//span[@class="text-option"]
+
+Desafio 
+1.- Buscar 
+2.- Logo Telcel 
+//a[@class="navbar-brand gluo-logo-telcel"]
+
+3.- Atajos
+//li[@class="atajos"]
+
+4.-Paquetes y recargas
+//a[@title="icono paquetes y recargas"]
+
+5.- Mas información
+//button[text()="Más información"]
+
+
