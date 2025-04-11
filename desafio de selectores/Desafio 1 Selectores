@@ -6,6 +6,8 @@ Selecctor Jerarquico: a#btn-mi-telcel>span.text-option
 
 Desafio por CCS
 1.- Buscar
+.comp-buscador-menu
+#lista-servicios-menu
 
 2.- Logo Telcel 
 a[title="Telcel"]
@@ -18,8 +20,9 @@ a[title="Telcel"]
 [alt="icon paquetes y recargas"]
 
 5.- Mas información
-class="telcel-controles-cta telcel-controles-cta--inline-block"
-
+[class="telcel-destacado-descriptivo---contenido-contenedor"].[class="telcel-controles-cta telcel-controles-cta--inline-block"]
+[class="telcel-destacado-descriptivo---contenido-contenedor"]>button.telcel-controles-cta telcel-controles-cta--inline-block
+[class="telcel-destacado-descriptivo---contenido-contenedor"]>button
 
 XPATH 
 Selección Relativa:
@@ -35,6 +38,8 @@ Selector multiple
 
 Desafio 
 1.- Buscar 
+//input[@id="buscador-menu-input"]
+
 2.- Logo Telcel 
 //a[@class="navbar-brand gluo-logo-telcel"]
 
